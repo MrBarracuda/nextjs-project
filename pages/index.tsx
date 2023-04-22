@@ -25,7 +25,7 @@ export default function Home() {
     <main className="">
       <Navbar navItems={array} />
       <Typography.H1>Home page</Typography.H1>
-      {/*<Article />*/}
+      <Article />
       <div>
         {data.docs.map((doc) => (
           <div key={doc.key}>{doc.top_work}</div>
