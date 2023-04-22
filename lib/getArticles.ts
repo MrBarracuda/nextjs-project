@@ -1,4 +1,4 @@
-import { Articles } from '@/pages/types'
+import { Articles } from '@/lib/types'
 import ky from 'ky'
 
 const API_URL = 'https://blog-app-next-js-json-server-git-main-thebarracuda.vercel.app/articles'

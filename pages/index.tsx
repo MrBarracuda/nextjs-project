@@ -4,7 +4,7 @@ import { Navbar } from '@/components/navbar'
 import { useQuery } from '@tanstack/react-query'
 import { getArticles } from '@/lib/getArticles'
 import { useEffect, useState } from 'react'
-import { Articles, Book } from '@/pages/types'
+import { Articles, Book } from '@/lib/types'
 import ky from 'ky'
 import { getBooksByAuthor } from '@/lib/getBooksByAuthor'
 
