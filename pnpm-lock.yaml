@@ -16,6 +16,9 @@ dependencies:
   clsx:
     specifier: ^1.2.1
     version: 1.2.1
+  ky:
+    specifier: ^0.33.3
+    version: 0.33.3
   lucide-react:
     specifier: ^0.166.0
     version: 0.166.0(react@18.2.0)
@@ -2030,6 +2033,11 @@ packages:
       array-includes: 3.1.6
       object.assign: 4.1.4
     dev: true
+
+  /ky@0.33.3:
+    resolution: {integrity: sha512-CasD9OCEQSFIam2U8efFK81Yeg8vNMTBUqtMOHlrcWQHqUX3HeCl9Dr31u4toV7emlH8Mymk5+9p0lL6mKb/Xw==}
+    engines: {node: '>=14.16'}
+    dev: false
 
   /language-subtag-registry@0.3.22:
     resolution: {integrity: sha512-tN0MCzyWnoz/4nHS6uxdlFWoUZT7ABptwKPQ52Ea7URk6vll88bWBVhodtnlfEuCcKWNGoc+uGbw1cwa9IKh/w==}
