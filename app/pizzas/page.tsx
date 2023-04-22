@@ -1,4 +1,3 @@
-import { Registration } from '@/components/registration'
 import { Typography } from '@/components/ui'
 
 function Pizzas() {
