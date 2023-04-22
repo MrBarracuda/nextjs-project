@@ -1,4 +1,4 @@
-import { Book } from '@/lib/types'
+import { Book } from '@/types'
 import ky from 'ky'
 import { useState } from 'react'
 

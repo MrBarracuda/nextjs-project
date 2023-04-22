@@ -4,14 +4,14 @@ import { Navbar } from '@/components/navbar'
 import { useQuery } from '@tanstack/react-query'
 import { getArticles } from '@/lib/getArticles'
 import { useEffect, useState } from 'react'
-import { Articles, Book } from '@/lib/types'
+import { Articles, Book } from '@/types'
 import ky from 'ky'
 import { getBooksByAuthor } from '@/lib/getBooksByAuthor'
 
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
-  const array = ['about', 'pizzas', 'profile']
+  const array = ['about', 'pizzas', 'profile', 'login']
 
   const { data, isError, isLoading } = useQuery({
     queryKey: ['author'],
